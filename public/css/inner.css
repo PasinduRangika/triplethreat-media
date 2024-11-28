@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.inner-bg {
+    background-color: #09131c;
+    position: relative;
+}
+
+nav ul li a{
+    cursor: pointer;
+}
+
+/* Video banner - start */
+.video-banner-section {
+    display: block;
+}
+
+.video-banner-section video {
+    margin: auto;
+}
+
+.about-section h4,
+.our-team-section h4,
+.our-work-section h4 {
+    background: #000;
+}
+
+.about-section p,
+.our-team-section p,
+.our-work-section  p{
+    margin-bottom: 15px;
+    text-align: left;
+    text-align: justify;
+}
+
+.time-line {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.line {
+    border-top: 1px solid #ffffff;
+    opacity: 0.5;
+}
+
+.time-line button span {
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    top: -2px;
+}
+
+#myvideo,
+#myvideo_apple{
+    width: 60%;
+}
+/* Video banner - end */
+
+/* Our Work - start */
+.our-work-section {
+    position: relative;
+    z-index: 9;
+}
+
+.player {
+    max-width: 100%;
+    
+}
+/* Our Work - end */
+
+/* Our Team - start */
+.our-team-section{
+    position: relative;
+    z-index: 9;
+}
+/* Our Team - end */
+
+/* Footer style - start */
+footer{
+    position: relative;
+    padding-bottom: 100px;
+}
+.inner-bottom-img{
+    display: block;
+    background: url('https://triplethreat-media.com/wp-content/themes/ttm/assets/img/inner_bottom_bg.png') no-repeat;
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    background-size: cover;
+}
+
+.footer ul li a {
+    cursor: pointer;
+}
+/* Footer style - end */
+
+/* Responsive Style - Start */
+@media (max-width: 480px) {
+    footer {
+        padding-bottom: 150px;
+    }
+
+    .footer ul li a{
+        font-size: 13px;
+    }
+
+    .mob-d-none{
+        display: none;
+    }
+
+    .mob-d-block{
+        display: block;
+    }
+
+    .about-section p,
+    .our-team-section p,
+    .our-work-section  p{
+        text-align: center;
+    }
+
+    #myvideo,
+    #myvideo_apple{
+        width: 100%;
+    }
+
+    .modal-content{
+        width: 100% !important;
+        left: auto !important;
+        margin-left: auto !important;
+        top: 46% !important;
+    }
+}
+/* Responsive Style - End */
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 99;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.modal-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -300px;
+    height: 600px;
+    width: 500px;
+}
+  
